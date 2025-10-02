@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import axios from "axios";
 import "./index.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://smarthire-backend-61rn.onrender.com";
 
 function App() {
   const fileInputRef = useRef(null);
